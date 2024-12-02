@@ -1,7 +1,11 @@
 {
-  "semi": false,
-  "trailingComma": "all",
-  "singleQuote": true,
-  "printWidth": 80,
-  "tabWidth": 2
+  "traillingComma": "es5",
+  "tabWidth": 4,
+  "semi": true,
+  "singleQuote": false,
+  "tailwindconfig": "./tailwind.config.ts",
+  "plugins": [
+    "@ianvs/prettier-plugins-sort-imports",
+    "prettier-plugin-tailwindcss"
+  ]
 }
